@@ -1,0 +1,10 @@
+name: Add innerHTML
+description: Add innerHTML after GitHub Actions job completion
+inputs: {}
+outputs:
+  innerHTML:
+    description: 'The innerHTML content'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
