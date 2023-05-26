@@ -6,4 +6,4 @@ outputs:
     description: 'The innerHTML content'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'addInnerHTML.js'
