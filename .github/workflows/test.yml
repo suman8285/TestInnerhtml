@@ -18,4 +18,4 @@ jobs:
         uses: ./  # Uses the custom action from the current repository
 
       - name: Display innerHTML output
-        run: echo "innerHTML: ${{ steps.custom-action.outputs.innerHTML }}"
+        run: echo "innerHTML ${{ steps.custom-action.outputs.innerHTML }}"
