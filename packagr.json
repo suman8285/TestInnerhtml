@@ -1,0 +1,11 @@
+{
+  "name": "github-actions-innerhtml",
+  "version": "1.0.0",
+  "description": "Custom GitHub Actions action to add innerHTML",
+  "scripts": {
+    "build": "node addInnerHTML.js"
+  },
+  "dependencies": {
+    "@actions/core": "^1.5.0"
+  }
+}
